@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,sum;
+    while(cin>>n)
+    {
+        sum = 0;
+        for(int i = 1;i <= n;++i)
+            sum += i;
+        cout<<sum<<endl<<endl;
+    }
+    return 0;
+}
+
+
+
+
+刚开始时候我理解错题意了，以为示例里面那个1是n的个数，然后各种方法调了一个小时还是WA。后来搜了别人AC的代码，发现是我理解错了
+。。。。。。
+所以大家一定不要学我，要认真读题，认真读题，认真读题！
+另外前面的题都是很简单的，越想越复杂不仅耗费脑力还会WA...
